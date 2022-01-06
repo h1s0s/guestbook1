@@ -9,10 +9,6 @@
 	String password = request.getParameter("password");
 	String content = request.getParameter("content");
 	
-	System.out.println(name);
-	System.out.println(password);
-	System.out.println(content);
-	
 	//파라미터 값을 vo로 만든다
 	GuestbookVo guestbookVo = new GuestbookVo(name, password, content);
 	

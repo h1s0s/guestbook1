@@ -13,7 +13,7 @@
 	<body>
 		<form action="./delete.jsp?" method="get">
 			<input type="hidden" name="no" value="<%= no %>">
-			<input type="password" name="password" value="">
+			비밀번호:<input type="password" name="password" value="">
 		<button type="submit">확인</button>
 		
 		</form>

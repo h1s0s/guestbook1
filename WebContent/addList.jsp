@@ -10,8 +10,6 @@
 	//guestbookList 가져오기
 	List<GuestbookVo> guestbookList = guestbookDao.getList();
 	
-	//테스트
-	System.out.println(guestbookList.toString());
 %>
 <!DOCTYPE html>
 <html>
