@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ page import="com.javaex.vo.GuestbookVo" %>
 <%
-	int no = Integer.parseInt(request.getParameter("no"));
+	String no = request.getParameter("no");
 %>
 <!DOCTYPE html>
 <html>
